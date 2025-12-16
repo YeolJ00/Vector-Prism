@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 32 32" xml:space="preserve">
+<style type="text/css">
+	.isometric_twee{fill:#F5DF89;}
+	.isometric_tien{fill:#7BD6C4;}
+	.isometric_elf{fill:#72C0AB;}
+	.isometric_dertien{fill:#225B49;}
+	.st0{fill:#FF7344;}
+	.st1{fill:#F05A28;}
+	.st2{fill:#569080;}
+	.st3{fill:#F29227;}
+	.st4{fill:#225B49;}
+	.st5{fill:#BE1E2D;}
+	.st6{fill:#F28103;}
+	.st7{fill:#F8F7C5;}
+	.st8{fill:#AD9A74;}
+	.st9{fill:#F2D76C;}
+	.st10{fill:#F5DF89;}
+	.st11{fill:#7BD6C4;}
+	.st12{fill:#80CCBE;}
+</style>
+<g>
+	<path class="isometric_elf" d="M8.587,25.955c0.77-0.778-1.348-2.903-2.117-2.125l3.066-3.06c0.728-0.816,2.884,1.238,2.137,2.075
+		L8.587,25.955z"/>
+	<path class="isometric_tien" d="M8.588,25.955L8.588,25.955c0.766-0.776-1.351-2.9-2.117-2.125
+		C5.685,24.625,7.809,26.744,8.588,25.955z"/>
+	<path class="isometric_twee" d="M13.042,24.196l0.241-1.028l-1.613-0.318l-3.082,3.105c-0.779,0.788-2.903-1.33-2.117-2.125
+		l1.702-1.699l-0.746-0.157l-1.216,0.829l-1.764,0.296l-0.208,1.028L3,24.945l0.88,0.834l-0.241,1.028l1.632,0.321l0.85,0.846
+		l1.759-0.314L9.495,28l1.216-0.829l1.764-0.296l0.208-1.028l1.238-0.818L13.042,24.196z"/>
+	<path class="st10" d="M8.588,25.955C8.588,25.955,8.588,25.955,8.588,25.955C8.88,25.66,8.879,25.66,8.588,25.955z"/>
+	<path class="st4" d="M8.777,25.763L8.777,25.763C8.798,25.742,8.798,25.742,8.777,25.763z"/>
+	<path class="isometric_dertien" d="M24.504,5.803L9.536,20.77c0.728-0.816,2.884,1.238,2.137,2.075L26.622,7.921
+		C27.452,7.147,25.256,4.959,24.504,5.803z"/>
+</g>
+</svg>

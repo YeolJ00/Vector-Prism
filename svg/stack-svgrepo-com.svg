@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 32 32" xml:space="preserve">
+<style type="text/css">
+	.isometric_een{fill:#F8F7C5;}
+	.isometric_drie{fill:#F2D76C;}
+	.isometric_vier{fill:#AD9A74;}
+	.isometric_zeven{fill:#FF7344;}
+	.isometric_acht{fill:#F05A28;}
+	.isometric_negen{fill:#BE1E2D;}
+	.isometric_tien{fill:#7BD6C4;}
+	.isometric_twaalf{fill:#569080;}
+	.isometric_dertien{fill:#225B49;}
+	.st0{fill:#FFBB33;}
+	.st1{fill:#F29227;}
+	.st2{fill:#F5DF89;}
+	.st3{fill:#6B9086;}
+	.st4{fill:none;}
+	.st5{fill:#72C0AB;}
+	.st6{fill:#BE1E2D;}
+	.st7{fill:#F28103;}
+	.st8{fill:#225B49;}
+	.st9{fill:#7BD6C4;}
+	.st10{fill:#FF7344;}
+	.st11{fill:#F05A28;}
+</style>
+<g>
+	<polygon class="isometric_zeven" points="16.025,28.992 8.025,24.373 8.025,20.611 16.025,25.23 	"/>
+	<polygon class="isometric_negen" points="16.025,28.992 23.975,24.373 23.975,20.611 16.025,25.23 	"/>
+	<polygon class="isometric_acht" points="16.025,22.496 10.402,19.25 8.025,20.611 16.025,25.23 23.975,20.611 21.627,19.241 	"/>
+	<polygon class="isometric_tien" points="16.025,22.496 8.025,17.877 8.025,14.116 16.025,18.734 	"/>
+	<polygon class="isometric_dertien" points="16.025,22.496 23.975,17.877 23.975,14.116 16.025,18.734 	"/>
+	<polygon class="isometric_twaalf" points="16.025,16 10.402,12.754 8.025,14.116 16.025,18.734 23.975,14.116 21.627,12.745 	"/>
+	<polygon class="isometric_een" points="16.025,16 8.025,11.381 8.025,7.62 16.025,12.239 	"/>
+	<polygon class="isometric_vier" points="16.025,16 23.975,11.381 23.975,7.62 16.025,12.239 	"/>
+	<polygon class="isometric_drie" points="8.025,7.62 16.075,3.008 23.975,7.62 16.025,12.239 	"/>
+</g>
+</svg>
