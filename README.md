@@ -1,4 +1,112 @@
-# Vector Prism 🎨✨
+# Vector Prism
+
+Official repository for the Vector Prism paper. This project implements the pipeline used in the paper to animate SVGs: SVG input → semantic parsing → LLM/VLM-driven planning → CSS/HTML generation.
+
+---
+
+## Quick start
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the main pipeline (interactive):
+
+```bash
+python main.py --exp_name myrun --test_json svg/test.jsonl --test_plan_json logs/plans.jsonl
+```
+
+Export per-frame PDFs/PNGs (headless Chrome required):
+
+```bash
+python utils/export_frames.py --input_file path/to/animation.html --fps 24 --duration 5 --format pdf
+```
+
+---
+
+## Reproducibility & notes
+
+- Set required API keys (OpenAI, Anthropic, etc.) as environment variables before running experiments.
+- Use `--exp_name` to create a timestamped `logs/` directory containing artifacts needed for reproduction.
+- Optional components (e.g., ViCLIP, DOVER) require model checkpoints and GPU resources.
+
+---
+
+## Project layout
+
+- `main.py` — pipeline entry point used in experiments
+- `svg_decomposition.py` — parser and semantic tagging
+- `animation_planner.py` — LLM-based plan generation
+- `animation_generator.py` — CSS/HTML generation
+- `svg_composition.py` — grouping/restructuring utilities
+- `utils/` — export, metrics, and setup helpers
+
+---
+
+If you'd like, I can also add a short `REPRODUCE.md` showing commands to reproduce specific figures or experiments from the paper.# Vector Prism
+
+Official repository for the Vector Prism paper. This project implements the exact pipeline used in the paper to synthesize animations from SVG inputs.
+
+**Core function:** given an input SVG, Vector Prism produces animation-ready HTML/CSS that animates SVG elements according to LLM/VLM-driven plans and semantic SVG parsing.
+
+---
+
+## Quick start
+
+1. Create a virtual environment and install dependencies:
+
+```bash
+git clone https://github.com/YeolJ00/vector-prism.git
+cd vector-prism
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+2. Run the main pipeline (interactive):
+
+```bash
+python main.py --exp_name myrun --test_json svg/test.jsonl --test_plan_json logs/plans.jsonl
+```
+
+3. Export per-frame PDFs/PNGs (headless Chrome required):
+
+```bash
+python utils/export_frames.py --input_file path/to/animation.html --fps 24 --duration 5 --format pdf
+```
+
+---
+
+## Reproducibility & notes
+
+- Set required API keys (OpenAI, Anthropic, etc.) as environment variables before running experiments.
+- Use `--exp_name` to create a timestamped `logs/` directory containing artifacts needed for reproduction.
+- Some optional components (e.g., ViCLIP, DOVER) require model checkpoints and GPU resources.
+
+---
+
+## Project layout
+
+- `main.py` — entry point used to drive experiments
+- `svg_decomposition.py` — parser and semantic tagging
+- `animation_planner.py` — LLM-based plan generation
+- `animation_generator.py` — CSS/HTML generation
+- `svg_composition.py` — grouping/restructuring utilities
+- `utils/` — export, metrics, and setup helpers
+
+---
+
+## Citation
+
+If you use this code in your research, please cite the Vector Prism paper.
+
+---
+
+## License
+
+MIT (add an explicit `LICENSE` file if required)# Vector Prism 🎨✨
 
 Vector Prism is a small toolkit for generating expressive SVG animations by combining visual-language models (VLMs) and language models (LLMs) with pragmatic SVG parsing and composition utilities.
 
